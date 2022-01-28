@@ -1,0 +1,68 @@
+.delete{
+    color: var(--primary-color);
+}
+
+button{
+    cursor: pointer;
+    border: none;
+}
+
+.landing-container-flex{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: 7rem auto;
+}
+
+.logo{
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+
+.extra-large-heading{
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 0.5rem;
+
+}
+
+.large-heading{
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.title{
+    color: var(--primary-color);
+    margin: 0.5rem;
+}
+
+.text-content{
+    color: var(--gray-color);
+    font-size: 1.2rem;
+    margin: 0.2rem;
+}
+
+.center-content{
+    text-align: center;
+   
+}
+.primary-btn{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 5px;
+}
+
+.large-btn{
+    margin:1.5rem;
+    width: 160px;
+    padding: 20px 10px;
+    font-size: 25px;
+}
+
