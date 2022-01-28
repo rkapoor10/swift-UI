@@ -22,3 +22,8 @@
     background-color: var(--lightgray-color);
     font-weight: 600;
 }
+
+.s-icons{
+    margin-left: 0.5rem;
+    margin-right: 0.2rem;
+}

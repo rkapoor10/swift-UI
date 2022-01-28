@@ -5,13 +5,13 @@
     grid-template-areas: 
     
     "head head head head head head head head head head head head"
-    "side main main main main main main main main main main main"
-    "side main main main main main main main main main main main"
-    "side main main main main main main main main main main main"
-    "side main main main main main main main main main main main"
-    "side main main main main main main main main main main main"
-    "side main main main main main main main main main main main"
-    "side main main main main main main main main main main main"
+    "side main main main main main main main main main main ----"
+    "side main main main main main main main main main main ----"
+    "side main main main main main main main main main main ----"
+    "side main main main main main main main main main main ----"
+    "side main main main main main main main main main main ----"
+    "side main main main main main main main main main main ----"
+    "side main main main main main main main main main main ----"
     "foot foot foot foot foot foot foot foot foot foot foot foot"
     ;
 }
@@ -28,11 +28,10 @@
 
 .main-container-grid{
     grid-area: main;
-    background-color: yellow;
 
 }
 
 .footer-container-grid{
     grid-area: foot;
-    background-color: orange;
+    background-color: greenyellow;
 }
