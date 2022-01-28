@@ -12,3 +12,17 @@ body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0px;
 }
+
+button{
+    cursor: pointer;
+    border: none;
+}
+
+[class^="f"]{
+    font-size: inherit;
+    color: inherit;
+}
+
+.flex-icons{
+    display: flex;
+}

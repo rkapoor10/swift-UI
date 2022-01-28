@@ -1,3 +1,4 @@
-@import './landing/landing.css';
+
 @import './stylesheets/reset.css';
 @import './stylesheets/base.css';
+@import './landing/landing.css';

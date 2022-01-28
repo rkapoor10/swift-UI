@@ -2,11 +2,6 @@
     color: var(--primary-color);
 }
 
-button{
-    cursor: pointer;
-    border: none;
-}
-
 .landing-container-flex{
     width: 50%;
     display: flex;
@@ -57,6 +52,16 @@ button{
     background-color: var(--primary-color);
     color: var(--white-color);
     border-radius: 5px;
+}
+
+.secondary-btn{
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+.fa-github{
+    margin: 0.3rem;
+    font-size: 3rem;
 }
 
 .large-btn{
