@@ -42,3 +42,7 @@ img,iframe{
     align-items: center;
     gap:10px;
 }
+
+.brd-btm{
+    border-bottom: 2px solid var(--lightgray-color);
+}

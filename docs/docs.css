@@ -1,5 +1,6 @@
 @import '/stylesheets/reset.css';
 @import '/stylesheets/base.css';
+@import '/stylesheets/utility.css';
 @import './layout.css';
 @import './navbar.css';
 @import './sidebar.css';

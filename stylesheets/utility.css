@@ -1,0 +1,120 @@
+/* taking in rems as 1rem = root font size i.e. 16px */
+
+
+/* || HEADINGS ----------------------------*/
+
+
+h1{
+    font-size: 3rem;        
+    line-height: 4rem;
+}
+
+h2{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+h4{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h5{
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+
+
+/* || TEXT ----------------------------*/
+
+
+.txt-xl{
+    font-size: 3rem;        
+    line-height: 4rem;
+}
+
+
+.txt-l{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+
+.txt-m{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+
+.txt-s{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+
+.txt-xs{
+    font-size: 0.7rem;
+    line-height: 1rem;
+}
+
+
+
+/* || FONT WEIGHTS ----------------------------*/
+
+.fw-light{
+    font-weight: 300;
+}
+
+.fw-regular{
+    font-weight: 400;
+}
+
+.fw-semibold{
+    font-weight: 600;
+}
+
+.fw-bold{
+    font-weight: 700;
+}
+
+.fw-black{
+    font-weight: 900;
+}
+
+
+
+/* || SPACING --------------------------------------- */
+
+.pad-2{
+    padding: 2rem;
+}
+
+.padtb-2{
+    padding: 2rem 0;
+}
+
+.padlr-2{
+    padding: 0 2rem;
+}
+
+.mar-2{
+    margin: 2rem;
+}
+
+.mart-2{
+    margin-top: 2rem;
+}
+
+.padb-2{
+    padding-bottom: 2rem;
+}
+
+.padb-1{
+    padding-bottom: 1rem ;
+}

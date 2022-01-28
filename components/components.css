@@ -1,44 +1,18 @@
 .component-flex{
-    border-bottom: 2px solid var(--primary-color);
     margin:1rem 1rem;
-
     display: flex;
     flex-direction: column;
     gap: 1rem;
     padding: 0.5rem 1rem;
 }
 
-.component-info{
-    
-}
-.component-title{
-    font-size: 3rem;
-    padding-bottom: 1rem;
-    font-weight: bold;
-}
-
-.component-title-small{
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
-    font-weight: bold;
-    
-}
 
 .bold{
     font-weight: bold;
 }
 
-.component-description{
-    font-size: 1.2rem;
-    padding-bottom: 1rem;
-   
-}
-.component-display{
-   
-}
 
 .display-container{
    padding: 1rem;
    border: 2px solid var(--lightgray-color);
-
 }
