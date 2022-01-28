@@ -1,1 +1,34 @@
 /* AVATAR CSS */
+
+.avatar{
+    border-radius: 50%;
+    border: 2px solid black;
+    object-fit: cover;
+    
+}
+
+.size-XL{
+    height: 10rem;
+    width: 10rem;
+}
+
+.size-L{
+    height: 8rem;
+    width: 8rem;
+}
+
+.size-M{
+    height: 6rem;
+    width: 6rem;
+}
+
+.size-S{
+    height: 4rem;
+    width: 4rem;
+}
+
+.flex-icons{
+    gap: 50px;
+    align-items: baseline;
+    flex-wrap: wrap;
+}

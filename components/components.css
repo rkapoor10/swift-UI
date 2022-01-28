@@ -1,5 +1,4 @@
 .component-flex{
-    background-color: lightgray;
     border-bottom: 2px solid var(--primary-color);
     margin:1rem 1rem;
 
@@ -21,6 +20,7 @@
 .component-title-small{
     font-size: 1.5rem;
     padding-bottom: 1rem;
+    font-weight: bold;
     
 }
 
@@ -30,9 +30,15 @@
 
 .component-description{
     font-size: 1.2rem;
+    padding-bottom: 1rem;
+   
+}
+.component-display{
+   
 }
 
-.component-display{
-    display: block;
+.display-container{
+   padding: 1rem;
+   border: 2px solid var(--lightgray-color);
 
 }

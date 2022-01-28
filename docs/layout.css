@@ -5,33 +5,32 @@
     grid-template-areas: 
     
     "head head head head head head head head head head head head"
-    "side main main main main main main main main main main ----"
-    "side main main main main main main main main main main ----"
-    "side main main main main main main main main main main ----"
-    "side main main main main main main main main main main ----"
-    "side main main main main main main main main main main ----"
-    "side main main main main main main main main main main ----"
-    "side main main main main main main main main main main ----"
+    "side side side main main main main main main main main main"
+    "side side side main main main main main main main main main"
     "foot foot foot foot foot foot foot foot foot foot foot foot"
     ;
 }
 
 .navbar-container-grid{
     grid-area: head;
+    min-height: 5rem;
 }
 
 .sidebar-container-grid{
    grid-area: side;
    border-right: 1px solid var(--lightgray-color);
+  
    
 }
 
 .main-container-grid{
     grid-area: main;
+    max-width: 80%;
 
 }
 
 .footer-container-grid{
     grid-area: foot;
     background-color: greenyellow;
+    min-height: 20rem;
 }

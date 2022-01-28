@@ -26,13 +26,19 @@ ul,li{
     list-style: none;
 }
 
-[class^="f"]{
+
+
+img,iframe{
+    max-inline-size: 100%;
+    block-size: auto;
+}
+/* [class^="f"]{
     font-size: inherit;
     color: inherit;
-}
+} */
 
 .flex-icons{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap:10px;
 }
