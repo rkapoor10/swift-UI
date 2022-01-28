@@ -4,15 +4,15 @@
     display: grid;
     grid-template-areas: 
     
-    "head head head head head"
-    "side main main main main "
-    "side main main main main "
-    "side main main main main "
-    "side main main main main "
-    "side main main main main "
-    "side main main main main "
-    "side main main main main "
-    "foot foot foot foot foot "
+    "head head head head head head head head head head head head"
+    "side main main main main main main main main main main main"
+    "side main main main main main main main main main main main"
+    "side main main main main main main main main main main main"
+    "side main main main main main main main main main main main"
+    "side main main main main main main main main main main main"
+    "side main main main main main main main main main main main"
+    "side main main main main main main main main main main main"
+    "foot foot foot foot foot foot foot foot foot foot foot foot"
     ;
 }
 
@@ -22,7 +22,8 @@
 
 .sidebar-container-grid{
    grid-area: side;
-   background-color: rebeccapurple;
+   border-right: 1px solid var(--lightgray-color);
+   
 }
 
 .main-container-grid{

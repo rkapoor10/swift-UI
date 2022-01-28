@@ -22,6 +22,10 @@ a{
     color: inherit;
 }
 
+ul,li{
+    list-style: none;
+}
+
 [class^="f"]{
     font-size: inherit;
     color: inherit;

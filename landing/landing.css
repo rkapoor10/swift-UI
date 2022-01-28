@@ -30,12 +30,11 @@
 
 .large-heading{
     font-size: 2rem;
-    margin: 0.5rem;
 }
 
 .title{
     color: var(--primary-color);
-    margin: 0.5rem;
+    margin: 1rem;
 }
 
 .text-content{

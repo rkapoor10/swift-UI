@@ -1,3 +1,4 @@
 @import '/stylesheets/reset.css';
 @import './layout.css';
-@import './navbar.css'
+@import './navbar.css';
+@import './sidebar.css';
