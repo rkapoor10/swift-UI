@@ -15,9 +15,10 @@
 
 .sidebar-items{
     padding: 0.5rem 0 0.5rem 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .sidebar-items:hover{
+    color: var(--primary-color);
     background-color: var(--lightgray-color);
     font-weight: 600;
 }
