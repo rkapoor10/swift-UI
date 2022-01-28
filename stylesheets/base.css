@@ -18,6 +18,11 @@ button{
     border: none;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 [class^="f"]{
     font-size: inherit;
     color: inherit;
