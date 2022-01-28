@@ -15,7 +15,6 @@ body {
 
 button{
     cursor: pointer;
-    border: none;
 }
 
 a{
@@ -30,4 +29,6 @@ a{
 
 .flex-icons{
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
