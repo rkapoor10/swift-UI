@@ -1,0 +1,157 @@
+.alert{
+
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2rem;
+    border: 2px solid;
+    justify-content: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    box-shadow: 0 0 5px var(--gray-color);
+    
+}
+
+.alert-message{
+    flex-grow: 1;
+}
+
+.error-solid{
+    border-color: var(--darkred-color);
+    background-color: var(--basered-color);
+    color: var(--white-color);
+}
+
+.warning-solid{
+    border-color: var(--darkorange-color);
+    background-color: var(--baseorange-color);
+    color: var(--white-color);
+}
+
+.success-solid{
+    border-color: var(--darkgreen-color);
+    background-color: var(--basegreen-color);
+    color: var(--white-color);
+}
+
+.primary-solid{
+    border-color: var(--darkblue-color);
+    background-color: var(--baseblue-color);
+    color: var(--white-color);
+}
+
+.error-outline{
+    border-color: var(--darkred-color);
+    background-color: var(--white-color);
+    color: var(--darkred-color);
+}
+
+.warning-outline{
+    border-color: var(--darkorange-color);
+    background-color: var(--white-color);
+    color: var(--darkorange-color);
+}
+
+.success-outline{
+    border-color: var(--darkgreen-color);
+    background-color: var(--white-color);
+    color: var(--darkgreen-color);
+}
+
+.primary-outline{
+    border-color: var(--darkblue-color);
+    background-color: var(--white-color);
+    color: var(--darkblue-color);
+}
+
+
+
+/* snackbars */
+
+.snackbar {
+    background-color: #333333;
+    margin: 2rem 0;
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    border: 1px;
+    gap: 10px;
+    box-shadow: 0 0 5px var(--gray-color);
+    color: var(--white-color);
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .baseline {
+    display: flex;
+    /* position: fixed;
+  
+    bottom: 0; */
+    /* given to center the div */
+    /* right: 0;
+    left: 0;
+    margin: 0 auto 1rem auto; */
+  }
+  
+  .leading {
+    display:flex;
+    /* position: fixed;
+    bottom: 0; */
+  }
+  
+  .stacked {
+    padding-top: 0.5rem;
+    display: flex;
+    /* position: fixed;
+  
+    bottom: 0; */
+    /* given to center the div */
+    /* right: 0;
+    left: 0;
+    margin: 0 auto 1rem auto; */
+    /* display:flex; */
+    flex-direction: column;
+    align-items: initial;
+  }
+  .stacked-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .content {
+    flex-grow: 1;
+  }
+  
+  .snackbar-btn-style {
+    cursor: pointer;
+    border: none;
+    background-color: var(--darkgray-color);
+    color: var(--lightorchid-color);
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 5px;
+    padding: 0.7rem 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .snackbar-btn-style:active {
+    opacity: 0.4;
+    background-color: var(--lightorchid-color);
+    color: var(--darkorchid-color);
+  }
+  
+  .fas {
+    cursor: pointer;
+  }
+  
+  .snackbar-btns {
+    cursor: pointer;
+    background-color: var(--darkorchid-color);
+    padding: 0.5rem 1rem;
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+  }
+  

@@ -21,7 +21,7 @@
    grid-area: side;
    border-right: 1px solid var(--lightgray-color);
    /* padding: 2rem; */
-   width: 20rem;
+   width: 15rem;
 }
 
 .main-container-grid{

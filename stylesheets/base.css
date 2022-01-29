@@ -6,6 +6,19 @@
     --black-color: black;
     --gray-color: gray;
     --lightgray-color: lightgray;
+    --lightshade-blue: #f0f9ff;
+    --basered-color:#ef4444;
+    --darkred-color:#dc2626;
+    --baseorange-color:#f97316;
+    --darkorange-color:#ea580c;
+    --basegreen-color:#22c55e;
+    --darkgreen-color:#16a34a;
+    --baseblue-color:#3b82f6;
+    --darkblue-color:#2563eb;
+    --darkorchid-color:darkorchid;
+    --lightorchid-color:#af8ddd;
+    /* --darkorchid-color:#2563eb;
+    --lightorchid-color:#3b82f6; */
 }
 
 body {
