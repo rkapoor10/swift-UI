@@ -1,6 +1,8 @@
 @import '/stylesheets/reset.css';
+@import '/stylesheets/base.css';
+@import '/stylesheets/utility.css';
 @import './layout.css';
 @import './navbar.css';
 @import './sidebar.css';
-@import '/components/components.css'
-
+@import '/components/components.css';
+@import '/components/avatar/avatar.css';

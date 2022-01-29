@@ -1,37 +1,37 @@
 .grid-page-layout{
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 100vw; */
     display: grid;
     grid-template-areas: 
     
     "head head head head head head head head head head head head"
-    "side main main main main main main main main main main ----"
-    "side main main main main main main main main main main ----"
-    "side main main main main main main main main main main ----"
-    "side main main main main main main main main main main ----"
-    "side main main main main main main main main main main ----"
-    "side main main main main main main main main main main ----"
-    "side main main main main main main main main main main ----"
-    "foot foot foot foot foot foot foot foot foot foot foot foot"
+    "side side main main main main main main main main main main "
+    "side side main main main main main main main main main main "
+    "side side main main main main main main main main main main "
+    "side side main main main main main main main main main main "
     ;
 }
 
 .navbar-container-grid{
     grid-area: head;
+    /* min-height: 5rem; */
 }
 
 .sidebar-container-grid{
    grid-area: side;
    border-right: 1px solid var(--lightgray-color);
-   
+   /* padding: 2rem; */
+   width: 20rem;
 }
 
 .main-container-grid{
     grid-area: main;
+    /* max-width: 80%; */
 
 }
 
-.footer-container-grid{
+/* .footer-container-grid{
     grid-area: foot;
     background-color: greenyellow;
-}
+    
+} */

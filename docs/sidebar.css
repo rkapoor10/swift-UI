@@ -1,11 +1,6 @@
 @import '/stylesheets/base.css';
 
 
-/* .large-heading{
-    display: inline-block;
-    margin: 1rem 0 0 1rem;
-} */
-
 .sidebar-heading{
   font-size: 1.5rem;
   margin: 0;
@@ -14,10 +9,16 @@
 }
 
 .sidebar-items{
-    padding: 0.5rem 0 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-item{
+    /*find a fix to this width  */
+    padding: 1rem 2rem;
     font-size: 1.2rem;
 }
-.sidebar-items:hover{
+.sidebar-item:hover{
     color: var(--primary-color);
     background-color: var(--lightgray-color);
     font-weight: 600;
