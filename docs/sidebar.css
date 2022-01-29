@@ -17,11 +17,15 @@
     /*find a fix to this width  */
     padding: 1rem 2rem;
     font-size: 1.2rem;
+    border-left: 3px solid var(--lightgray-color);
+    margin-left: 0.5rem;
 }
 .sidebar-item:hover{
     color: var(--primary-color);
-    background-color: var(--lightgray-color);
-    font-weight: 600;
+    background-color: var(--lightshade-blue);
+    border-left: 3px solid var(--primary-color);
+
+    /* font-weight: 600; */
 }
 
 .s-icons{
