@@ -7,6 +7,22 @@
     
 }
 
+.text-avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: var(--lightgray-color);
+}
+
+.square-avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .size-XL{
     height: 10rem;
     width: 10rem;
