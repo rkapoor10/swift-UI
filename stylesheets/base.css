@@ -4,6 +4,7 @@
     --primary-color: blue;
     --white-color: white;
     --black-color: black;
+    --darkgray-color:#333333;
     --gray-color: gray;
     --lightgray-color: lightgray;
     --lightshade-blue: #f0f9ff;
@@ -17,6 +18,8 @@
     --darkblue-color:#2563eb;
     --darkorchid-color:darkorchid;
     --lightorchid-color:#af8ddd;
+    --darkyellow-color: #f59e0b;
+    
     /* --darkorchid-color:#2563eb;
     --lightorchid-color:#3b82f6; */
 }
