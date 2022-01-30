@@ -19,7 +19,7 @@
 
 .sidebar-container-grid{
    grid-area: side;
-   border-right: 1px solid var(--lightgray-color);
+   border-right: 1px solid var(--lightshade-blue);
    background-color: var(--lightshade-blue);
    /* padding: 2rem; */
    width: 15rem;
