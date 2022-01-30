@@ -7,8 +7,7 @@
     border-radius: 50%;
     display: inline-block;
     height: 1rem;
-    width:  1rem;
-    
+    width:  1rem;   
 }
 
 .badge-child{
@@ -41,13 +40,43 @@
     color: var(--basegreen-color);
 }
 
-/* .dnd-icon{
-    text-align: center;
-    font-weight: bold;
+
+.dnd-icon{
+    border-radius: 50%;
+    display: inline-block;
+    height: 1.7rem;
+    width:  1.7rem;
+    background-color: var(--lightshade-blue) ;
+    box-shadow: 0px 0px 0px 2px var(--lightshade-blue);
+
+}
+
+/* icons-badges ----------------------- */
+.icon{
     font-size: 2rem;
-    background-color:var(--darkred-color) ;
-    color: var(--white-color);
-    box-shadow: 0px 0px 0px 5px var(--lightshade-blue);
-    box-shadow: 0px 0px 0px 5px var(--darkred-color);
-} 
-     */
+}
+.icons-disp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+.badge-top{
+    position: absolute;
+    top: -0.3rem;
+    left: 2.9rem;
+}
+
+.badge-font{
+    font-size: 1.5rem;
+    min-height: 1.8rem;
+    min-width: 1.8rem;
+}
+
+.txt-badge{
+    border-radius: 1rem;
+}
+
+
