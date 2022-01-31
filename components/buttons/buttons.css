@@ -121,23 +121,23 @@
 .signup-btn{
     border: none;
     background-color: white;
-    color: var(--darkorchid-color);
+    color: var(--darkpink-color);
     padding: 0.3rem 1rem;
 }
 
 .signup-btn:hover{
 
-    border-bottom: 1px solid var(--darkorchid-color) ;
+    border-bottom: 1px solid var(--darkpink-color) ;
 
 }
 
 .login-btn{
-    background-color: var(--lightorchid-color);
+    background-color: var(--basepink-color);
     color: var(--white-color);
 }
 
 .login-btn:hover{
-    background-color: var(--darkorchid-color);
+    background-color: var(--darkpink-color);
 }
 
 .btn-wishlist{
