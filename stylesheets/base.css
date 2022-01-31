@@ -7,6 +7,7 @@
     --darkgray-color:#333333;
     --gray-color: gray;
     --lightgray-color: lightgray;
+    --lightergray-color:#e2e8f0;
     --lightshade-blue: #f0f9ff;
     --basered-color:#ef4444;
     --darkred-color:#dc2626;
@@ -129,6 +130,10 @@ img,iframe{
     border-color:var(--darkyellow-color);
 }
 
+.brc-gray{
+    border-color:var(--gray-color);
+}
+
 .white{
     color: var(--white-color);
 }
@@ -141,12 +146,13 @@ img,iframe{
     color: var(--darkgreen-color);
 }
 
-
+.pink{
+    color:var(--basepink-color);
+}
 
 .blue{
     color:var(--baseblue-color);
 }
-
 
 .darkblue{
     color:var(--darkblue-color);
@@ -158,4 +164,8 @@ img,iframe{
 
 .darkyellow{
     color:var(--darkyellow-color);
+}
+
+.gray{
+    color: var(--gray-color);
 }
