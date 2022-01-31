@@ -6,8 +6,8 @@
     align-items: center;
     padding: 1.5rem;
     justify-content: space-between;
-    border: 1px solid var(--white-color);
-    box-shadow: 0 0 5px var(--gray-color);  
+    border: 5px solid var(--lightshade-blue);
+    box-shadow: 0 0 10px var(--lightshade-blue);  
     /* check if this is applying */
 }
 

@@ -1,0 +1,82 @@
+.badge-parent{
+    position: relative;
+}
+
+
+.round{
+    border-radius: 50%;
+    display: inline-block;
+    height: 1rem;
+    width:  1rem;   
+}
+
+.badge-child{
+    position: absolute;
+    top: 4.2rem;
+    left: 4.5rem;
+} 
+
+.green-circle{
+    padding: 0.7rem;
+    border: 2px;
+    box-shadow: 0px 0px 0px 5px var(--lightshade-blue);
+    background-color: var(--basegreen-color);
+}
+
+
+.fa-moon{
+    font-size: 1rem;
+    background-color: var(--lightshade-blue) ;
+    box-shadow: 0px 0px 0px 5px var(--lightshade-blue);
+    color: var(--darkyellow-color);
+}
+
+.fa-mobile-alt{
+    font-size: 1.5rem;
+    border: 2px;
+    border-radius: 0.2rem;
+    background-color: var(--lightshade-blue) ;
+    box-shadow: 0px 0px 0px 3px var(--lightshade-blue);
+    color: var(--basegreen-color);
+}
+
+
+.dnd-icon{
+    border-radius: 50%;
+    display: inline-block;
+    height: 1.7rem;
+    width:  1.7rem;
+    background-color: var(--lightshade-blue) ;
+    box-shadow: 0px 0px 0px 2px var(--lightshade-blue);
+
+}
+
+/* icons-badges ----------------------- */
+.icon{
+    font-size: 2rem;
+}
+.icons-disp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+.badge-top{
+    position: absolute;
+    top: -0.3rem;
+    left: 2.9rem;
+}
+
+.badge-font{
+    font-size: 1.5rem;
+    min-height: 1.8rem;
+    min-width: 1.8rem;
+}
+
+.txt-badge{
+    border-radius: 1rem;
+}
+
+
