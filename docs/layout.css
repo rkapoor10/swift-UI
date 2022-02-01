@@ -23,7 +23,15 @@
    background-color: var(--lightshade-blue);
    /* padding: 2rem; */
    width: 15rem;
+   
 }
+  
+.sticky{
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+   
 
 .main-container-grid{
     grid-area: main;
