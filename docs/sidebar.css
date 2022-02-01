@@ -27,6 +27,14 @@
     border-left: 3px solid var(--primary-color);
 }
 
+.active-item{
+    color: var(--primary-color);
+    /* background-color: var(--lightshade-blue);
+    border-left: 3px solid var(--primary-color);
+    */
+}
+
+
 .s-icons{
     margin-left: 0.5rem;
     margin-right: 0.2rem;

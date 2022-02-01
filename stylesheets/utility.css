@@ -59,8 +59,12 @@ h5{
 
 
 .txt-xs{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     line-height: 1rem;
+}
+
+.txt-left{
+    text-align: left;
 }
 
 
@@ -107,8 +111,6 @@ h5{
     padding: 0 1rem;
 }
 
-
-
 .padb-2{
     padding-bottom: 2rem;
 }
@@ -142,3 +144,25 @@ h5{
 .marl-1{
     margin-left: 1rem;
 }
+
+
+
+/* FONT SIZE  */
+
+.fs-1r{
+    font-size: 1rem;
+}
+
+.fs-15{
+    font-size: 1.5rem;
+}
+
+.fs-2{
+    font-size: 2rem;
+}
+
+
+.fs-3{
+    font-size: 3rem;
+}
+

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation | Cards</title>
+    <link rel="stylesheet" href="/docs/docs.css">
+    <script src="https://kit.fontawesome.com/284b0bb15e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="grid-page-layout">
+        <header class="navbar-container-grid navbar-container-flex">
+            <div class="navbar-logo">Logo</div>
+            <div class="navbar-title">Swift UI <span style="color: black;"> v.1</span> </div>
+            <div class="navbar-github"><a href="http://github.com/rkapoor10/swift-UI" target="blank"
+                    class="flex-icons"><i class="fab fa-github"></i></a></div>
+        </header>
+        <div class="sidebar-container-grid">
+            <div class="large-heading sidebar-heading">Components</div>
+
+
+            <ul class="sidebar-items">
+                <li class="sidebar-item"><a href="/components/avatar/avatar.html"><i
+                            class="fas fa-user-tie s-icons"></i> Avatar</a></li>
+                <li class="sidebar-item"><a href="/components/alert/alert.html"><i
+                            class="fas fa-exclamation-circle s-icons"></i> Alert</a></li>
+                <li class="sidebar-item"><a href="/components/badges/badges.html"><i
+                            class="far fa-id-badge s-icons"></i> Badge</a></li>
+                <li class="sidebar-item"><a href="/components/buttons/buttons.html"><i class="fas fa-mouse s-icons"></i>
+                        Button</a></li>
+                <li class="sidebar-item active-item"><a href="/components/cards/cards.html"><i
+                            class="fas fa-address-card s-icons"></i> Card</a></li>
+                <li class="sidebar-item"><a href="/components/image/image.html"><i class="far fa-images s-icons"></i>
+                        Image</a></li>
+                <li class="sidebar-item"><a href="/components/input/input.html"><i class="far fa-keyboard s-icons"></i>
+                        Input</a></li>
+            </ul>
+
+        </div>
+
+
+        <div id="cards">
+            <div class="component-flex">
+                <div class="component-info">
+                    <h1 class="">Cards</h1>
+                    <p class="txt-m brd-btm marb-2">
+                        Various card layouts
+                    </p>
+                </div>
+
+                <div class="component-display">
+                    <h2 class="marb-1">Portrait - Cards </h2>
+                    <div class="display-container flex-icons marb-2">
+                        <div class="card-container">
+                            <div class="parent-image">
+                                <!-- img -->
+                                <img class="image-container" src="https://picsum.photos/300/400" alt="">
+                                <!-- tags and heart wishlist -->
+                                <div class="tags-flex">
+                                    <div class="tags-badge child-tags bg-baseblue">New</div>
+                                    <button class="btn-round btn-heart txt-s lightteal child-wishlist"><i
+                                            class="far fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <span class="whishlist-heart"></span>
+                            <!-- title -->
+                            <div class="title">
+                                <h3>Large Title</h3>
+                                <p class="title-small txt-s">small title</p>
+                            </div>
+                            <!-- price -->
+                            <p class="price-box txt-xs fw-bold">Rs. 1345 <s class="striked">Rs. 1495</s> <span
+                                    class="discount darkorange">(10% OFF)</span></p>
+                            <!-- buy now -->
+                            <button
+                                class="btn buy-btn-padding txt-xs btn-solid cta-btn bg-lightteal white fw-semibold">BUY
+                                NOW</button>
+                            <!-- wishlist -->
+                            <button class="btn-secondary txt-xs">ADD TO CART</button>
+                        </div>
+
+                        <div class="card-container">   
+                            <div class="parent-image">
+                                <!-- img -->
+                                <img class="image-container" src="https://picsum.photos/300/400" alt="">
+                                <!-- tags and heart wishlist -->
+                                <div class="tags-flex">
+                                    <div class="tags-badge child-tags bg-baseorange">Trending</div>
+                                    <button class="btn-round btn-heart txt-s lightteal child-wishlist"><i
+                                            class="far fa-heart"></i></button>
+                                </div>
+                                <!-- rating -->
+                                <span class="child-rating rating-box fw-semibold">4 <i
+                                class="fas fa-star baseteal"></i>| 1542 </span>
+                            </div>
+                            <span class="whishlist-heart"></span>
+                            
+                            <!-- title -->
+                            <div class="title">
+                                <h3>Large Title</h3>
+                                <p class="title-small txt-s">small title</p>
+                            </div>
+                            <!-- price -->
+                            <p class="price-box txt-xs fw-bold">Rs. 3521 <s class="striked">Rs. 4695</s> <span
+                                    class="discount darkorange">(Rs. 1174 OFF)</span></p>
+                            <!-- buy now -->
+                            <button
+                                class="btn buy-btn-padding txt-xs btn-solid cta-btn bg-lightteal white fw-semibold">BUY
+                                NOW</button>
+                            <!-- wishlist -->
+                            <button class="btn-secondary txt-xs">ADD TO CART</button>
+                        </div>
+
+                        
+
+                    </div>
+                </div>
+                <div class="component-code">CODE</div>
+
+
+
+                <div class="component-display">
+                    <h2 class="marb-1">Portrait - Cards - Out Of Stock </h2>
+                    <div class="display-container flex-icons marb-2">
+                        <div class="card-container">
+                            <div class="parent-image">
+                                <!-- img -->
+                                <img class="image-container" src="https://picsum.photos/300/400" alt="">
+                                <!-- tags and heart wishlist -->
+                                <div class="tags-flex">
+                                    <button class="btn-round btn-heart txt-s lightteal child-wishlist"><i
+                                            class="far fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <span class="whishlist-heart"></span>
+                            <!-- title -->
+                            <div class="title">
+                                <h3>Large Title</h3>
+                                <p class="title-small txt-s">small title</p>
+                            </div>
+                            <!-- price -->
+                            <s class="price-box txt-xs fw-bold">Rs. 1345 <s class="striked">Rs. 1495</s> <span
+                                    class="discount darkorange">(10% OFF)</span></s>
+                            <!-- buy now -->
+                            <button
+                                class="btn buy-btn-padding txt-xs btn-solid  white fw-semibold btn-disable" disabled><p class="basered">OUT OF STOCK</p></button>
+                            <!-- wishlist -->
+                            <button class=" btn-disable btn-secondary txt-xs " disabled>ADD TO CART</button>
+                        </div>
+
+                        <div class="card-container parent-container">   
+                            <div class="parent-image">
+                                <!-- img -->
+                                <img class="image-container" src="https://picsum.photos/300/400" alt="">
+                                <!-- tags and heart wishlist -->
+                                <div class="tags-flex">
+                                    <!-- <div class="tags-badge child-tags bg-baseorange">Trending</div> -->
+                                    <button class="btn-round btn-heart txt-s lightteal child-wishlist"><i
+                                            class="far fa-heart"></i></button>
+                                </div>
+                                <!-- rating -->
+                                <!-- <span class="child-rating rating-box fw-semibold">4 <i
+                                class="fas fa-star baseteal"></i>| 1542 </span> -->
+                            </div>
+                            <span class="whishlist-heart"></span>
+                            
+                            <!-- title -->
+                            <div class="title">
+                                <h3>Large Title</h3>
+                                <p class="title-small txt-s">small title</p>
+                            </div>
+                            <!-- price -->
+                            <p class="price-box txt-xs fw-bold">Rs. 3521 <s class="striked">Rs. 4695</s> <span
+                                    class="discount darkorange">(Rs. 1174 OFF)</span></p>
+                            <!-- buy now -->
+                            <button
+                                class="btn buy-btn-padding txt-xs btn-solid cta-btn bg-lightteal white fw-semibold " >BUY
+                                NOW</button>
+                            <!-- wishlist -->
+                            <button class="btn-secondary txt-xs " >ADD TO CART</button>
+
+                            <div class="overlay-text fs-2 fw-bold">COMING SOON!</div>
+                        </div>
+
+                        
+
+                    </div>
+                </div>
+                <div class="component-code">CODE</div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

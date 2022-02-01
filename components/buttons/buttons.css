@@ -1,0 +1,162 @@
+.btn{
+    border-radius: 0.2rem;
+    cursor: pointer;
+    
+}
+
+.btn-padding{
+    padding: 0.5rem 2rem;
+}
+
+.btn-solid{
+    border: none;
+}
+
+.btn-outline{
+    background-color: var(--white-color);
+    border: 1px solid;
+}
+
+.btn-hover:hover{
+    background-color: var(--darkblue-color);
+}
+
+.outline-hover:hover{
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+
+}
+
+.btn-active:active{
+    background-color: var(--darkred-color);
+}
+
+.outline-active:active{
+    background-color: var(--basered-color);
+    color: var(--white-color);
+}
+
+
+.btn-disable:hover{
+    cursor: no-drop;
+}
+
+
+/* add minus btn -------------- */
+
+.flex-btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-round{
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid var(--lightgray-color);
+    box-shadow: 1px 1px 3px 1px var(--gray-color);
+    background-color: var(--white-color);
+}
+
+.btn-round:active{
+    box-shadow: 0px 0px 3px 0 var(--gray-color);
+}
+
+/* ICON BUTTONS----------------------- */
+
+.btn-icon{
+    border: none;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: white;
+}
+
+.btn-icon:hover{
+   background-color:var(--lightergray-color);
+}
+
+.btn-heart:active{
+    color: var(--darkred-color);
+    background-color: var(--lightgray-color);
+}
+
+.btn-trash{
+    border: none;
+}
+
+.btn-trash:active{
+    color: var(--darkgray-color);
+    background-color: var(--lightgray-color);
+}
+
+.btn-cart{
+    border: none;
+}
+
+.btn-cart:active{
+    color: var(--darkblue-color);
+    background-color: var(--lightgray-color);
+}
+
+.btn-chat{
+    border: none;
+}
+
+.btn-chat:active{
+    color: var(--basegreen-color);
+    background-color: var(--lightgray-color);
+}
+
+/* UTILITY BUTTONS */
+
+.signup-btn{
+    border: none;
+    background-color: white;
+    color: var(--darkpink-color);
+    padding: 0.3rem 1rem;
+}
+
+.signup-btn:hover{
+
+    border-bottom: 1px solid var(--darkpink-color) ;
+
+}
+
+.login-btn{
+    background-color: var(--basepink-color);
+}
+
+.login-btn:hover{
+    background-color: var(--darkpink-color);
+}
+
+.cta-btn:hover{
+    background-color: var(--baseteal-color);
+}
+
+
+.btn-secondary{
+    border-radius:0.2rem ;
+    padding: 0.5rem 3rem;
+    background-color: white;
+    border: 1px solid var(--lightgray-color);
+}
+
+.btn-secondary:hover{
+    border-color:var(--darkteal-color) ;
+}
+
+.buy-btn-padding{
+    min-width: 13.2rem;
+    padding: 0.6rem 3rem;
+}
+
+
