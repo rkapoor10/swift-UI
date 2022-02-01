@@ -59,8 +59,12 @@ h5{
 
 
 .txt-xs{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     line-height: 1rem;
+}
+
+.txt-left{
+    text-align: left;
 }
 
 

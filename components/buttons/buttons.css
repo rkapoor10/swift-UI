@@ -1,5 +1,5 @@
 .btn{
-    border-radius: 0.3rem;
+    border-radius: 0.2rem;
     cursor: pointer;
     
 }
@@ -39,7 +39,6 @@
 
 .btn-disable:hover{
     cursor: no-drop;
-    background-color: var(--lightyellow-color);
 }
 
 
@@ -133,21 +132,31 @@
 
 .login-btn{
     background-color: var(--basepink-color);
-    color: var(--white-color);
 }
 
 .login-btn:hover{
     background-color: var(--darkpink-color);
 }
 
-.btn-wishlist{
-    padding: 0.5rem 3rem;
-    background-color: white;
-    border: 1px solid var(--gray-color);
+.cta-btn:hover{
+    background-color: var(--baseteal-color);
 }
 
-.btn-wishlist:hover{
-    border-color:var(--black-color) ;
+
+.btn-secondary{
+    border-radius:0.2rem ;
+    padding: 0.5rem 3rem;
+    background-color: white;
+    border: 1px solid var(--lightgray-color);
+}
+
+.btn-secondary:hover{
+    border-color:var(--darkteal-color) ;
+}
+
+.buy-btn-padding{
+    min-width: 13.2rem;
+    padding: 0.6rem 3rem;
 }
 
 
