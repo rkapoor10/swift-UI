@@ -1,4 +1,4 @@
-.card-container{
+.card-container {
     background-color: var(--white-color);
     padding: 0.5rem;
     display: flex;
@@ -6,40 +6,40 @@
     width: 15rem;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     border: 2px solid var(--lightgray-color);
     border-radius: 0.3rem;
     box-shadow: 0 1px 5px 0px var(--lightgray-color);
 }
 
-.card-container:hover{
+.card-container:hover {
     border: 2px solid var(--lightteal-color);
     box-shadow: 0 1px 5px 2px var(--lightgray-color);
 
 }
-.image-container{
-    /* border-radius: 0.3rem; */
+
+.image-container {
+
     height: 296px;
     width: 222px;
 }
 
-.title-small{
+.title-small {
     color: var(--gray-color);
 }
 
-/* tags and badges */
+/* || TAGS AND BADGES ------------------------------------*/
 
-.parent-image{
+.parent-image {
     position: relative;
 }
 
-.child-tags{
+.child-tags {
     position: absolute;
     top: 0rem;
-    left:-0.05rem;
+    left: -0.05rem;
 }
 
-.child-wishlist{
+.child-wishlist {
     position: absolute;
     top: 1rem;
     left: 11rem;
@@ -47,22 +47,21 @@
 
 
 
-/* .tags-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
-.tags-badge{
-    /* padding: 1rem 5rem; */
+
+.tags-badge {
     margin: 1rem 0;
     color: var(--white-color);
     padding: 0.3rem 2rem 0.3rem 1rem;
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0 50%, 0 0);
 }
 
-/* rating box */
 
-.rating-box{
+
+
+
+/* || RATING BOX ------------------------------- */
+
+.rating-box {
     max-width: fit-content;
     padding: 0.1rem;
     border-radius: 0.1rem;
@@ -71,7 +70,7 @@
     opacity: 0.8;
 }
 
-.child-rating{
+.child-rating {
     position: absolute;
     bottom: 1rem;
     left: 0.5rem;
@@ -79,11 +78,12 @@
 }
 
 
-/* OVERLAY TEXT */
-.parent-container{
+/* || OVERLAY TEXT -----------------------------------------*/
+.parent-container {
     position: relative;
 }
-.overlay-text{
+
+.overlay-text {
     position: absolute;
     flex-wrap: wrap;
     text-align: center;
@@ -99,7 +99,50 @@
     padding: 0.5rem;
 }
 
-.overlay-text:hover{
+.overlay-text:hover {
     display: none;
-    /* opacity: 0; */
+    
+}
+
+
+
+/* || Landscape Cards ---------------------------*/
+.card-container-horizontal {
+    background-color: var(--white-color);
+    padding: 0.5rem;
+    display: flex;
+    gap: 10px;
+    width: 420px;
+    height: 220px;
+    flex-direction: column;
+    justify-content: center;
+ 
+    border: 2px solid var(--lightgray-color);
+    border-radius: 0.3rem;
+    box-shadow: 0 1px 5px 0px var(--lightgray-color);
+}
+
+.image-container-horizontal {
+   
+    height: 148px;
+    width: 111px;
+}
+
+
+/* || OVERLAY IMAGE ----------------------- */
+
+.overlay-image {
+    position: absolute;
+    width: 420px;
+    height: 220px;
+    flex-wrap: wrap;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
 }
