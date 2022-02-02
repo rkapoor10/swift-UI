@@ -130,12 +130,22 @@
     /* color: var(--lightgray-color); */
     padding: 1rem;
     width: 80%;
-    margin-bottom: 1rem 
+    /* margin-bottom: 1rem  */
 }
 
 .input-field:focus{
     outline: none;
     border-bottom: 3px solid var(--lightteal-color);
+}
+
+/* validation */
+
+.input-field.error{
+    border-bottom: 3px solid var(--basered-color);
+}
+
+.input-field.error{
+    border-bottom: 3px solid var(--basered-color);
 }
 
 .acta-btn{
