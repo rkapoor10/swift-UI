@@ -1,0 +1,151 @@
+.textarea-container{
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--lightgray-color);
+    width: 25rem;
+    height: 15rem;
+    border-radius: 0.3rem;
+
+}
+
+.text-area{
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    box-shadow: 0 0 5px var(--lightgray-color);
+}
+
+.text-area:focus{
+    outline: none;
+}
+
+.container-form{
+    
+    
+}
+
+.login-form-grid-layout{
+
+    display: grid;
+    grid-template-areas:
+    "bn bn fm fm fm fm"
+    "bn bn fm fm fm fm"
+    "bn bn fm fm fm fm"
+    "bn bn fm fm fm fm"
+    "bn bn fm fm fm fm"
+    ;
+}
+
+.banner-layout{
+    grid-area: bn;
+}
+
+.banner-style{
+    background-color: var(--lightteal-color);
+    /* background-color: #00d09c; */
+
+    min-width: 15rem;
+    min-height: 30rem;
+    padding: 1rem;
+}
+
+.form-layout{
+     grid-area: fm;
+     background-color: var(--white-color);
+
+    min-width: 30rem;
+    min-height: 30rem;
+}
+
+.form-styles{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-around;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.banner-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+
+
+.form-content{
+    color: var(--white-color);
+    width: 10rem;
+}
+
+.form-hero{
+    width: 10rem;
+    height: 10rem;
+}
+
+
+/* FORM ----------------------------- */
+
+/* FORM-TABS---------- */
+
+.tabs-layout{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-tabs{
+    border: none;
+    margin-top:1rem;
+    background-color: var(--white-color);
+    flex-grow: 1;
+    border-bottom: 2px solid var(--lightgray-color);
+    color: var(--gray-color);
+}
+
+
+
+.active{
+    border-bottom: 3px solid var(--lightteal-color);
+    color: var(--lightteal-color);
+}
+
+
+/* FORM INPUTS ------------ */
+
+
+.input-field{
+    border: none;
+    border-bottom: 3px solid var(--lightgray-color);
+    /* color: var(--lightgray-color); */
+    padding: 1rem;
+    width: 80%;
+    margin-bottom: 1rem 
+}
+
+.input-field:focus{
+    outline: none;
+    border-bottom: 3px solid var(--lightteal-color);
+}
+
+.acta-btn{
+    /* background-color: var(--lightteal-color); */
+    background-color:
+    #5367ff;
+}
+
+.acta-btn:hover{
+    /* background-color: var(--baseteal-color); */
+    background-color:
+    #344bfa;
+}

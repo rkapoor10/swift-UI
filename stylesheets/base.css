@@ -23,9 +23,9 @@
     --lightorchid-color:#af8ddd;
     --darkyellow-color: #f59e0b;
     --lightyellow-color: #fde68a;
-    --lightteal-color:#14b8a6;
-    --baseteal-color:#0d9488;
-    --darkteal-color:#0f766e;
+    --lightteal-color:#05ca99;
+    --baseteal-color:#04ad83;
+    --darkteal-color:#04926f;
     
     /* --darkorchid-color:#2563eb;
     --lightorchid-color:#3b82f6; */
@@ -90,6 +90,10 @@ img,iframe{
     /* gap:15px; */
     /* justify-content: space-evenly; */
     
+}
+
+.wrapit{
+    flex-wrap: wrap;
 }
 
 
@@ -237,4 +241,7 @@ img,iframe{
 
 .gray{
     color: var(--gray-color);
+}
+.lightgray{
+    color: var(--lightgray-color);
 }

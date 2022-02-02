@@ -31,13 +31,14 @@
     position: sticky;
     top: 0;
 }
-   
+
+.logo-form{
+    margin-top: 5rem;
+}
 
 .main-container-grid{
     grid-area: main;
-    
     /* max-width: 80%; */
-
 }
 
 /* .footer-container-grid{

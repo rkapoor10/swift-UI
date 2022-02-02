@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="/docs/docs.css">
     <script src="https://kit.fontawesome.com/284b0bb15e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="grid-page-layout">
         <header class="navbar-container-grid navbar-container-flex">
@@ -27,10 +29,14 @@
                             class="fas fa-exclamation-circle s-icons"></i> Alert</a></li>
                 <li class="sidebar-item"><a href="/components/badges/badges.html"><i
                             class="far fa-id-badge s-icons"></i> Badge</a></li>
-                <li class="sidebar-item "><a href="/components/buttons/buttons.html"><i class="fas fa-mouse s-icons"></i> Button</a></li>
-                <li class="sidebar-item"><a href="/components/cards/cards.html"><i class="fas fa-address-card s-icons"></i> Card</a></li>
-                <li class="sidebar-item "><a href="/components/image/image.html"><i class="far fa-images s-icons"></i> Image</a></li>
-                <li class="sidebar-item active-item"><a href="/components/input/input.html"><i class="far fa-keyboard s-icons"></i> Input</a></li>
+                <li class="sidebar-item "><a href="/components/buttons/buttons.html"><i
+                            class="fas fa-mouse s-icons"></i> Button</a></li>
+                <li class="sidebar-item"><a href="/components/cards/cards.html"><i
+                            class="fas fa-address-card s-icons"></i> Card</a></li>
+                <li class="sidebar-item "><a href="/components/image/image.html"><i class="far fa-images s-icons"></i>
+                        Image</a></li>
+                <li class="sidebar-item active-item"><a href="/components/input/input.html"><i
+                            class="far fa-keyboard s-icons"></i> Input</a></li>
             </ul>
 
         </div>
@@ -45,17 +51,58 @@
                     </p>
                 </div>
                 <div class="component-display">
-                    <h2 class="marb-1">Responsive Image</h2>
+                    <h2 class="marb-1">Input - TextArea</h2>
                     <div class="display-container flex-icons marb-2">
-        
+
+                        <div class="textarea-container">
+                            <textarea class="text-area" placeholder="Enter your message" name="msg-input" cols="30"
+                                rows="10"></textarea>
+                            <button class="btn btn-padding txt-s btn-solid white bg-blue btn-hover"><i
+                                    class="fas fa-paper-plane"></i> SEND</button>
+                        </div>
+
                     </div>
                 </div>
                 <div class="component-code">CODE</div>
 
 
                 <div class="component-display">
-                    <h2 class="marb-1">Responsive Image Round</h2>
+                    <h2 class="marb-1">Login Form</h2>
                     <div class="display-container flex-icons marb-2">
+                        <div class="login-form-grid-layout container-form">
+                            <div class="banner-layout banner-style">
+                                <div class="banner-flex">
+                                    <!-- <h2 class="form-logo white">LOGO</h2> -->
+                                    <div class="form-head">
+                                        <h1 class="white">Login</h1>
+                                        <p class="form-content txt-s">Get access to your Orders, Wishlist and
+                                            Recommendations</p>
+                                    </div>
+
+                                    <img class="form-hero" src="/components/images/form-hero.svg" alt="" srcset="">
+                                </div>
+                            </div>
+                            <div class="form-layout">
+                                <div class="tabs-layout">
+                                    <button class="txt-m form-tabs active">Login</button><span class="lightgray">|</span>
+                                    <button class="txt-m form-tabs">SignUp</button>
+                                </div>
+
+                                <form class="form-styles" action="submit">
+
+                                    <input class="input-field fs-1r fw-semibold" type="" placeholder="Enter Email/Mobile number">
+                                    <input class="input-field fs-1r fw-semibold" type="" placeholder="Enter Password">
+                                    <span class="w-80">By continuing, you agree to Swift-UI <span class="baseteal fw-semibold">Terms of Use</span>  and <span class="baseteal fw-semibold">Privacy Policy</span>.</span>
+
+                                    <button class="btn btn-padding txt-s btn-outline acta-btn white bg-basepink w-80">LOGIN</button>
+                                    <span>OR</span>
+                                    <button class="btn-secondary txt-s w-80">Request OTP</button>
+
+
+                                </form>
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="component-code">CODE</div>
@@ -64,4 +111,5 @@
         </div>
     </div>
 </body>
+
 </html>

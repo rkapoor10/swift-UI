@@ -156,8 +156,16 @@
     background-color: var(--darkpink-color);
 }
 
+.cta-btn{
+    background-color: var(--lightteal-color);
+    /* background-color:
+    #5367ff; */
+}
+
 .cta-btn:hover{
     background-color: var(--baseteal-color);
+    /* background-color:
+    #344bfa; */
 }
 
 
