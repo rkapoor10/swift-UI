@@ -26,9 +26,9 @@
     --lightteal-color:#05ca99;
     --baseteal-color:#04ad83;
     --darkteal-color:#04926f;
+    --secondary-color:#5367ff;
+    --darksecondary-color:#344bfa;;
     
-    /* --darkorchid-color:#2563eb;
-    --lightorchid-color:#3b82f6; */
 }
 
 body {
@@ -64,7 +64,6 @@ img,iframe{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* gap:15px; */
     justify-content: space-evenly;
 }
 
@@ -87,17 +86,17 @@ img,iframe{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* gap:15px; */
-    /* justify-content: space-evenly; */
+    
     
 }
 
 .wrapit{
+    display: flex;
     flex-wrap: wrap;
 }
 
 
-.brd-btm{
+.bd-btm{
     border-bottom: 2px solid var(--lightgray-color);
 }
 
