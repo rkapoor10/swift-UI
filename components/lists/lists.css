@@ -1,0 +1,14 @@
+.list-component{
+
+    padding: 1rem 2rem;
+    background-color: var(--white-color);
+}
+
+.indent-x{
+    padding: 0 1rem ;
+}
+
+
+.item-hover:hover{
+    color: var(--baseblue-color);
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation | Lists</title>
+    <link rel="stylesheet" href="/docs/docs.css">
+    <script src="https://kit.fontawesome.com/284b0bb15e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="grid-page-layout">
+        <header class="navbar-container-grid navbar-container-flex">
+            <div class="navbar-logo">Logo</div>
+            <div class="navbar-title">Swift UI <span style="color: black;"> v.1</span> </div>
+            <div class="navbar-github"><a href="http://github.com/rkapoor10/swift-UI" target="blank"
+                    class="flex-icons"><i class="fab fa-github"></i></a></div>
+        </header>
+        <div class="sidebar-container-grid">
+            <div class="large-heading sidebar-heading">Components</div>
+
+
+            <ul class="sidebar-items">
+                <li class="sidebar-item"><a href="/components/avatar/avatar.html"><i
+                            class="fas fa-user-tie s-icons"></i> Avatar</a></li>
+                <li class="sidebar-item"><a href="/components/alert/alert.html"><i
+                            class="fas fa-exclamation-circle s-icons"></i> Alert</a></li>
+                <li class="sidebar-item"><a href="/components/badges/badges.html"><i
+                            class="far fa-id-badge s-icons"></i> Badge</a></li>
+                <li class="sidebar-item "><a href="/components/buttons/buttons.html"><i
+                            class="fas fa-mouse s-icons"></i> Button</a></li>
+                <li class="sidebar-item"><a href="/components/cards/cards.html"><i
+                            class="fas fa-address-card s-icons"></i> Card</a></li>
+                <li class="sidebar-item"><a href="/components/image/image.html"><i class="far fa-images s-icons"></i>
+                        Image</a></li>
+                <li class="sidebar-item"><a href="/components/input/input.html"><i class="far fa-keyboard s-icons"></i>
+                        Input</a></li>
+                <li class="sidebar-item"><a href="/components/text-utilities/text-utilities.html"><i
+                            class="fas fa-heading"></i> Text Utilities</a></li>
+                <li class="sidebar-item active-item"><a href="/components/lists/lists.html"><i
+                            class="fas fa-list-ul"></i> Lists</a>
+                </li>
+                <li class="sidebar-item"><a href="/components/navigation/navigation.html"><i class="far fa-compass"></i>
+                        Navigation</a></li>
+                <li class="sidebar-item"><a href="/components/modal/modal.html"><i class="far fa-square"></i> Modal</a>
+                </li>
+                <li class="sidebar-item"><a href="/components/rating/rating.html"><i class="far fa-star"></i> Rating</a>
+                </li>
+                <li class="sidebar-item"><a href="/components/toast/toast.html"><i class="fas fa-bread-slice"></i>
+                        Toast</a></li>
+                <li class="sidebar-item"><a href="/components/grid/grid.html"><i class="fas fa-grip-horizontal"></i>
+                        Grid</a></li>
+            </ul>
+
+        </div>
+
+
+        <div id="buttons">
+            <div class="component-flex">
+                <div class="component-info">
+                    <h1>Lists</h1>
+                    <p class="txt-m bd-btm mb-2">
+                        Various forms of Lists
+                    </p>
+                </div>
+                <div class="component-display">
+                    <h2 class="mb-1">Spaced (normal lists)</h2>
+                    <div class="display-container flex-icons mb-2">
+                        <div class="list-component ">
+                            <div class="list-title txt-s ">Category</div>
+                            <div class="divider"></div>
+                            <ul>
+                                <li class="txt-s item-hover gray "> <a href="">Home</a></li>
+                                <li class="txt-s item-hover gray"><a href="">Badminton</a></li>
+                                <li class="txt-s item-hover gray"><a href="">Training</a></li>
+                                <li class="txt-s item-hover gray"><a href="">Suppliments</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="component-code">
+                    <code>
+                        <iframe src="https://www.thiscodeworks.com/embed/61fc2df66ab14d0015c32df8"
+                            style="width: 100%; height: 138px;" frameborder="0"></iframe>
+                    </code>
+                </div> -->
+
+                <div class="component-display">
+                    <h2 class="mb-1">Stacked (Notification Page)</h2>
+                    <div class="display-container  mb-2">
+                        <div class="list-component ">
+                            <div class="txt-s ">Category</div>
+                            <div class="divider"></div>
+                            <ul>
+                                <li class="txt-s indent-x item-hover gray "> <a href="">Home</a></li>
+                                <li class="txt-s gray">
+                                    <div class="indent-x">
+                                        <a class="item-hover " href="">Badminton</a>
+                                        <ul class="indent-x ">
+                                            <li class="indent-x item-hover"><a href="">Rackets</a></li>
+                                            <li class="indent-x item-hover"><a href="">Guts</a></li>
+                                            <li class="indent-x item-hover"><a href="">Shoes</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="txt-s indent-x item-hover gray"><a href="">Training</a></li>
+                                <li class="txt-s indent-x item-hover gray"><a href="">Suppliments</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- <div class="component-code">
+                    <code>
+                        <iframe src="https://www.thiscodeworks.com/embed/61fc2df66ab14d0015c32df8"
+                            style="width: 100%; height: 138px;" frameborder="0"></iframe>
+                    </code>
+                </div> -->
+
+
+                <div class="component-display">
+                    <h2 class="mb-1">List Filters</h2>
+                    <div class="display-container  mb-2">
+                        <div class="list-component ">
+                            <div class="txt-s ">Discount</div>
+                            <div class="divider"></div>
+                            <div class="checkbox column-flex">
+                                <label class="txt-s gray" for="checkbox-1">
+                                    <input id="checkbox-1" type="checkbox" name="checkbox">
+                                    10% or below
+                                </label>
+                                <label class="txt-s gray " for="checkbox-2">
+                                    <input id="checkbox-2" type="checkbox" name="checkbox">
+                                    10% or more
+                                </label>
+                                <label class="txt-s gray" for="checkbox-3">
+                                    <input id="checkbox-3" type="checkbox" name="checkbox">
+                                    40% or more
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- <div class="component-code">
+                    <code>
+                        <iframe src="https://www.thiscodeworks.com/embed/61fc2df66ab14d0015c32df8"
+                            style="width: 100%; height: 138px;" frameborder="0"></iframe>
+                    </code>
+                </div> -->
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
