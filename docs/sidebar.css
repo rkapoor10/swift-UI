@@ -11,6 +11,7 @@
 .sidebar-items{
     display: flex;
     flex-direction: column;
+    
 }
 
 .sidebar-item{
@@ -35,7 +36,3 @@
 }
 
 
-.s-icons{
-    margin-left: 0.5rem;
-    margin-right: 0.2rem;
-}
