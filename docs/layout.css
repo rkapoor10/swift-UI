@@ -1,6 +1,4 @@
 .grid-page-layout{
-    /* height: 100vh;
-    width: 100vw; */
     display: grid;
     grid-template-areas: 
     
@@ -14,22 +12,28 @@
 
 .navbar-container-grid{
     grid-area: head;
-    /* min-height: 5rem; */
 }
 
 .sidebar-container-grid{
    grid-area: side;
    border-right: 1px solid var(--lightshade-blue);
    background-color: var(--lightshade-blue);
-   /* padding: 2rem; */
    width: 15rem;
+   
+}
+  
+.sticky{
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.logo-form{
+    margin-top: 5rem;
 }
 
 .main-container-grid{
     grid-area: main;
-    
-    /* max-width: 80%; */
-
 }
 
 /* .footer-container-grid{

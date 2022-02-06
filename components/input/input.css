@@ -1,0 +1,145 @@
+.text-area-container {
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--lightgray-color);
+    width: 25rem;
+    height: 15rem;
+    border-radius: 0.3rem;
+
+}
+
+.text-area {
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    box-shadow: 0 0 5px var(--lightgray-color);
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+
+
+.login-form-grid-layout {
+
+    display: grid;
+    grid-template-areas:
+        "bn bn fm fm fm fm"
+    ;
+}
+
+.banner-layout {
+    grid-area: bn;
+}
+
+.banner-style {
+    background-color: var(--lightteal-color);
+    min-width: 15rem;
+    min-height: 30rem;
+    padding: 1rem;
+}
+
+.form-container{
+     min-height: 30rem;
+}
+
+.form-layout {
+    grid-area: fm;
+    background-color: var(--white-color);
+    min-width: 30rem;
+    min-height: 30rem;
+}
+
+.form-styles {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    height: 30rem;
+    align-items: center;
+}
+
+
+
+.banner-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+
+
+.form-content {
+    color: var(--white-color);
+    width: 10rem;
+}
+
+.form-hero {
+    width: 10rem;
+    height: 10rem;
+}
+
+
+/* FORM ----------------------------- */
+
+/* FORM-TABS---------- */
+
+.tabs-layout {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-tabs {
+    border: none;
+    margin-top: 1rem;
+    background-color: var(--white-color);
+    flex-grow: 1;
+    border-bottom: 2px solid var(--lightgray-color);
+    color: var(--gray-color);
+}
+
+
+
+.active {
+    border-bottom: 3px solid var(--lightteal-color);
+    color: var(--lightteal-color);
+}
+
+
+/* FORM INPUTS ------------ */
+
+
+.input-field {
+    border: none;
+    border-bottom: 3px solid var(--lightgray-color);
+
+    padding: 1rem;
+    width: 80%;
+
+}
+
+.input-field:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border-bottom: 3px solid var(--lightteal-color);
+}
+
+/* validation */
+
+.error {
+    border-bottom: 3px solid var(--basered-color);
+}
+
+.secondary-cta-btn {
+    background-color: var(--secondary-color);
+}
+
+.secondary-cta-btn:hover {
+    background-color: var(--darksecondary-color);
+}

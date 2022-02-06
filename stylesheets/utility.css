@@ -119,33 +119,33 @@ h5{
     padding-bottom: 1rem ;
 }
 
-.marb-1{
+.mb-1{
     margin-bottom: 1rem;
 }
 
 
-.marb-2{
+.mb-2{
     margin-bottom: 2rem;
 }
 
 
-.marb-3{
+.mb-3{
     margin-bottom: 3rem;
 }
 
-.mar-2{
+.m-2{
     margin: 2rem;
 }
 
-.mart-2{
+.mt-2{
     margin-top: 2rem;
 }
 
-.marl-1{
+.ml-1{
     margin-left: 1rem;
 }
 
-.martb-1{
+.mtb-1{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
@@ -169,5 +169,10 @@ h5{
 
 .fs-3{
     font-size: 3rem;
+}
+
+
+.w-80{
+    width: 80%;
 }
 

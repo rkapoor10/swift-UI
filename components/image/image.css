@@ -1,0 +1,12 @@
+.img-responsive{
+    max-inline-size: 100%;
+    block-size: auto;
+
+}
+
+.img-responsive-round{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
