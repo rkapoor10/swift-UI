@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root{
     --primary-color: blue;
@@ -51,6 +51,7 @@ ul,li{
 
 
 
+
 img,iframe{
     max-inline-size: 100%;
     block-size: auto;
@@ -59,11 +60,34 @@ img,iframe{
     font-size: inherit;
     color: inherit;
 } */
+.full-width{
+    width: 100%;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-right{
+    text-align: right;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.space-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .flex-icons{
     display: flex;
     align-items: center;
-    justify-content: center;
     justify-content: space-evenly;
 }
 

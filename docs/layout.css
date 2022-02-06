@@ -7,6 +7,7 @@
     "side side main main main main main main main main main main "
     "side side main main main main main main main main main main "
     "side side main main main main main main main main main main "
+    "side side foot foot foot foot foot foot foot foot foot foot"
     ;
 }
 
@@ -22,11 +23,11 @@
    
 }
   
-.sticky{
+/* .sticky{
     height: 100vh;
     position: sticky;
     top: 0;
-}
+} */
 
 .logo-form{
     margin-top: 5rem;
@@ -34,10 +35,17 @@
 
 .main-container-grid{
     grid-area: main;
+    height: 100vh;
 }
 
-/* .footer-container-grid{
+.footer-container-grid{
     grid-area: foot;
-    background-color: greenyellow;
+    background-color: aqua;
+    width: 100%;
+    height: 3rem;
     
-} */
+}
+
+.extra-space{
+    height: 10rem;
+}
