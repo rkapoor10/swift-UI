@@ -64,9 +64,7 @@ img,iframe{
     color: inherit;
 } */
 
-.full-width{
-    width: 100%;
-}
+
 
 .divider{
     margin-bottom: 1rem;
@@ -177,6 +175,10 @@ img,iframe{
 
 .bg-gray{
     background-color: var(--gray-color);
+}
+
+.bg-white{
+    background-color: var(--white-color);
 }
 
 .bg-basepink{

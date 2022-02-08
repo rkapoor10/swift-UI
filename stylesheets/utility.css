@@ -99,6 +99,10 @@ h5{
     padding: 2rem;
 }
 
+.pad-1{
+    padding: 1rem;
+}
+
 .padtb-2{
     padding: 2rem 0;
 }
@@ -119,6 +123,12 @@ h5{
     padding-bottom: 1rem ;
 }
 
+.padr-1{
+    padding-right: 1rem;
+}
+
+
+/* margin */
 .mb-1{
     margin-bottom: 1rem;
 }
@@ -144,6 +154,8 @@ h5{
 .ml-1{
     margin-left: 1rem;
 }
+
+
 
 .mtb-1{
     margin-top: 0.5rem;
@@ -175,4 +187,10 @@ h5{
 .w-80{
     width: 80%;
 }
+
+/* width */
+.full-width{
+    width: 100%;
+}
+
 
