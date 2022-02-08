@@ -1,0 +1,8 @@
+.list-component{
+    padding: 1rem 2rem;
+    background-color: var(--white-color);
+}
+
+.item-hover:hover{
+    color: var(--baseblue-color);
+}
