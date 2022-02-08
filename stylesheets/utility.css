@@ -200,3 +200,26 @@ h5{
 .fix-width-30{
     width: 30rem;
 }
+
+
+/* height */
+.full-height{
+    height: 100%;
+}
+
+.fix-height-50{
+    height: 50rem;
+}
+
+.fix-height-30{
+    height: 30rem;
+}
+
+.fix-height-22{
+    height: 22rem;
+}
+
+
+.center{
+    margin: auto;
+}
