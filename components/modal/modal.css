@@ -1,10 +1,3 @@
-/* .modals{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-} */
 .modal-styles {
     background-color: var(--white-color);
     width: 20rem;
@@ -51,7 +44,7 @@
   .simple-modal {
     display: none;
     flex-direction: column;
-    gap: 30px;
+    gap: 2rem;
   }
   
   .modal-list {
@@ -63,7 +56,7 @@
     font-size: 1.2rem;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.5rem;
     padding: 0.5rem 1rem;
   }
   
