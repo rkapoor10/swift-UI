@@ -1,0 +1,119 @@
+/* .modals{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+.modal-styles {
+    background-color: var(--white-color);
+    width: 20rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px var(--lightgray-color);
+    margin: 1rem;
+  }
+  
+  /* || ALERT DIALOG  **********************/
+  
+  .alert-modal {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .modal-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .alert-body {
+    color: gray;
+  }
+  
+  .action-buttons {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .action-btn-styles {
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+    background-color: var(--white-color);
+    color: var(--primary-color);
+  }
+  
+  /* || SIMPLE DIALOG **************/
+  
+  .simple-modal {
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .modal-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-list-items {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0.5rem 1rem;
+  }
+  
+  .modal-list-items:hover {
+    background-color: lightgray;
+  }
+  
+  .fa-user-circle {
+    color: gray;
+    font-size: 2.5rem;
+  }
+  
+  /* ||CONFIRMATION DIALOG *********************/
+  
+  .confirmation-modal {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .confirmation-header {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .confirmation-list {
+    height: 10rem;
+    overflow: auto;
+  }
+  
+  input[type="radio"] {
+    height: 1.5rem;
+    width: 1.5rem;
+    accent-color: var(--primary-color);
+  }
+  
+  /* || DIALOG DISPLAY BUTTONS  *********************/
+  
+  .display-btn {
+    margin: 1rem;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    box-shadow: 0 0 10px var(--lightgray-color);
+  }
+  
+  .display-btn:active {
+    box-shadow: 0 0 5px var(--lightgray-color);
+  }
+  

@@ -41,9 +41,11 @@
                             class="fas fa-heading"></i> Text Utilities</a></li>
                 <li class="sidebar-item"><a href="/components/lists/lists.html"><i class="fas fa-list-ul"></i> Lists</a>
                 </li>
-                <li class="sidebar-item "><a href="/components/navigation/navigation.html"><i class="far fa-compass"></i>
+                <li class="sidebar-item "><a href="/components/navigation/navigation.html"><i
+                            class="far fa-compass"></i>
                         Navigation</a></li>
-                <li class="sidebar-item active-item"><a href="/components/modal/modal.html"><i class="far fa-square"></i> Modal</a>
+                <li class="sidebar-item active-item"><a href="/components/modal/modal.html"><i
+                            class="far fa-square"></i> Modal</a>
                 </li>
                 <li class="sidebar-item"><a href="/components/rating/rating.html"><i class="far fa-star"></i> Rating</a>
                 </li>
@@ -59,15 +61,17 @@
         <div id="buttons">
             <div class="component-flex">
                 <div class="component-info">
-                    <h1 class="">Navigation</h1>
+                    <h1 class="">Modal</h1>
                     <p class="txt-m bd-btm mb-2">
-                        Navbar Component
+                        Modal Components
                     </p>
                 </div>
                 <div class="component-display">
-                    <h2 class="mb-1">Navbar</h2>
+                    <h2 class="mb-1">Types of Modals </h2>
                     <div class="display-container flex-icons mb-2">
-                      
+                        <button class="display-btn bg-white">Alert Modal</button>
+                        <button class="display-btn bg-white">Simple Modal</button>
+                        <button class="display-btn bg-white">Confirmation Modal</button>
                     </div>
                 </div>
                 <!-- <div class="component-code">
@@ -77,9 +81,76 @@
                     </code>
                 </div> -->
 
+                <div class="component-display ">
+                    <h2 class="mb-1">Display Section </h2>
+                    <div class="display-container flex-icons mb-2 fix-height-22">
+                        <p class="txt-m gray center placeholder-message">
+                            Modal Components will be displayed here
+                        </p>
+                        <div class="modals">
+                            <div class="alert-modal modal-styles">
+                                <div class="modal-header">Modal Header</div>
+                                <p class="alert-body">Modal Body Text</p>
+                                <div class="action-buttons">
+                                    <button class="action-btn-styles onclick-hide">Action 1</button>
+                                    <button class="action-btn-styles onclick-hide">Action 2</button>
+                                </div>
+                            </div>
+
+                            <div class="simple-modal modal-styles">
+                                <div class="modal-header">Modal Header</div>
+                                <ul class="modal-list">
+                                    <li class="modal-list-items onclick-hide">
+                                        <i class="fas fa-user-circle"></i> Item 1
+                                    </li>
+                                    <li class="modal-list-items onclick-hide">
+                                        <i class="fas fa-user-circle"></i> Item 2
+                                    </li>
+                                    <li class="modal-list-items onclick-hide">
+                                        <i class="fas fa-user-circle"></i> Item 3
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="confirmation-modal modal-styles">
+                                <div class="modal-header confirmation-header">Modal Header</div>
+                                <ul class="modal-list confirmation-list">
+                                    <li class="modal-list-items">
+                                        <input type="radio" id="item-1" name="item-list" value="Item 1" />
+                                        Item 1
+                                    </li>
+                                    <li class="modal-list-items">
+                                        <input type="radio" id="item-2" name="item-list" value="Item 2" />
+                                        Item 2
+                                    </li>
+                                    <li class="modal-list-items">
+                                        <input type="radio" id="item-3" name="item-list" value="Item 3" />
+                                        Item 3
+                                    </li>
+                                    <li class="modal-list-items">
+                                        <input type="radio" id="item-4" name="item-list" value="Item 4" />
+                                        Item 4
+                                    </li>
+                                    <li class="modal-list-items">
+                                        <input type="radio" id="item-5" name="item-list" value="Item 5" />
+                                        Item 5
+                                    </li>
+                                </ul>
+                                <div class="action-buttons">
+                                    <button class="action-btn-styles onclick-hide">Action 1</button>
+                                    <button class="action-btn-styles onclick-hide">Action 2</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
+
+
+    <script src="./modal.js"></script>
 </body>
 
 </html>
