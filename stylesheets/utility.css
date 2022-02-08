@@ -193,4 +193,10 @@ h5{
     width: 100%;
 }
 
+.fix-width-50{
+    width: 50rem;
+}
 
+.fix-width-30{
+    width: 30rem;
+}

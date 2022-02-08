@@ -1,0 +1,23 @@
+
+
+
+/*  */
+.nav-icons {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+  }
+.menu-btn{
+    position: relative;
+}
+
+.menu-list{
+    display: none;
+    width: 15rem;
+    position: absolute;
+}
+
+.menu-item:hover{
+    cursor: pointer;
+    background-color: var(--lightgray-color);
+}
