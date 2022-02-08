@@ -1,0 +1,29 @@
+.fix-width-50{
+    width: 50rem;
+}
+
+.fix-width-25{
+    width: 50rem;
+}
+
+
+/*  */
+.nav-icons {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+  }
+.menu-btn{
+    position: relative;
+}
+
+.menu-list{
+    display: none;
+    width: 15rem;
+    position: absolute;
+}
+
+.menu-item:hover{
+    cursor: pointer;
+    background-color: var(--lightgray-color);
+}
