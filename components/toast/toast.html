@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentation | Navigation</title>
+    <title>Documentation | Toast</title>
     <link rel="stylesheet" href="/docs/docs.css">
     <script src="https://kit.fontawesome.com/284b0bb15e.js" crossorigin="anonymous"></script>
 </head>
@@ -59,15 +59,42 @@
         <div id="buttons">
             <div class="component-flex">
                 <div class="component-info">
-                    <h1 class="">Navigation</h1>
+                    <h1 class="">Toast</h1>
                     <p class="txt-m bd-btm mb-2">
-                        Navbar Component
+                        Toast Component
                     </p>
                 </div>
                 <div class="component-display">
-                    <h2 class="mb-1">Navbar</h2>
+                    <h2 class="mb-1">Types-</h2>
                     <div class="display-container flex-icons mb-2">
+                        <div class="btns-div">
+                            <button class="btns">Leading</button>
+                            <button class="btns">Baseline</button>
+                            <button class="btns">Stacked</button>
+                          </div>
                       
+                         
+                            <div class="toast baseline">
+                              <p class="content">Can't send photo. Retry in 5 seconds.</p>
+                              <button class="retry-btn btn-style">RETRY</button>
+                              <i class="close-icon fas fa-times"></i>
+                            </div>
+                      
+                            <div class="toast leading">
+                              <p class="content">Your photo has been archived.</p>
+                              <button class="undo-btn btn-style">UNDO</button>
+                              <i class="close-icon fas fa-times"></i>
+                            </div>
+                      
+                            <div class="toast stacked">
+                              <p class="content">
+                                This item already has the label "travel". You can add a new label.
+                              </p>
+                              <div class="stacked-footer">
+                                <button class="label-btn btn-style">ADD A NEW LABEL</button>
+                                <i class="close-icon fas fa-times"></i>
+                              </div>
+                            </div>
                     </div>
                 </div>
                 <!-- <div class="component-code">
@@ -80,6 +107,7 @@
             </div>
         </div>
     </div>
+    <script src="./toast.js"></script>
 </body>
 
 </html>

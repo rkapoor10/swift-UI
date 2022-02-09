@@ -249,6 +249,10 @@ img,iframe{
     color:var(--baseblue-color);
 }
 
+.baseblue{
+    color:var(--baseblue-color);
+}
+
 .lightteal{
     color: var(--lightteal-color);
 }
