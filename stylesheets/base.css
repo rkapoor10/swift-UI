@@ -195,6 +195,7 @@ img,iframe{
 .bg-baseblue{
     background-color:var(--baseblue-color);
 }
+
 .brc-baseblue{
     border-color:var(--baseblue-color);
 }
