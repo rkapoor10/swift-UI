@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root{
-    --primary-color: blue;
-    --white-color: white;
+    --primary-color: #2a5bfd;
+    --white-color: rgb(255, 255, 255);
     --black-color: black;
-    --darkgray-color:#333333;
+    --darkgray-color:#363636;
     --gray-color: gray;
     --lightgray-color: lightgray;
     --lightergray-color:#e2e8f0;
@@ -203,7 +203,9 @@ img,iframe{
 .brc-darkblue{
     border-color:var(--darkblue-color);
 }
-
+.brc-darkgray{
+    border-color:var(--darkgray-color);
+}
 .brc-lightteal{
     border-color: var(--lightteal-color);
 }
