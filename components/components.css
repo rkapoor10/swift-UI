@@ -6,6 +6,10 @@
     padding: 0.5rem 1rem;
 }
 
+.component-display{
+    margin-top: 3rem;
+}
+
 
 .bold{
     font-weight: bold;
