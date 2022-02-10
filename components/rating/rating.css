@@ -1,0 +1,29 @@
+.stars-container{
+    display: flex;
+}
+
+.star-rating-input{
+    margin: 0;
+    width: 0;
+    height: 0;
+    cursor: pointer;
+}
+
+.star-rating-icon{
+    color: var(--gray-color);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.star-rating-icon:hover{
+    color: var(--lightteal-color);
+}
+
+.star-rating-icon:active{
+    color: var(--baseteal-color);
+}
+
+.active-star{
+    color: var(--baseteal-color);
+}
+
