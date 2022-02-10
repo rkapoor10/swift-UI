@@ -75,3 +75,21 @@
 .footer-icons:hover{
     color: var(--baseblue-color);
 }
+
+@media screen and (max-width: 770px) {
+    .grid-page-layout{
+        display: grid;
+        grid-template-areas: 
+        
+        "head head head head head head head head head head"
+        "main main main main main main main main main main "
+        "main main main main main main main main main main "
+        "main main main main main main main main main main "
+        "main main main main main main main main main main "
+        "foot foot foot foot foot foot foot foot foot foot"
+        ;
+    }
+    .sidebar-container-grid{
+        display: none;
+     }
+}
