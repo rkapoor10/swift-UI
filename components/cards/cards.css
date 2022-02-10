@@ -3,7 +3,7 @@
     padding: 0.5rem;
     display: flex;
     gap: 10px;
-    width: 15rem;
+    width: 16rem;
     flex-direction: column;
     justify-content: center;
     border: 2px solid var(--lightgray-color);
@@ -14,13 +14,12 @@
 .card-container:hover {
     border: 2px solid var(--lightteal-color);
     box-shadow: 0 1px 5px 2px var(--lightgray-color);
-
 }
 
 .image-container {
 
-    height: 296px;
-    width: 222px;
+    /* height: 296px;
+    width: 222px; */
 }
 
 .title-small {
