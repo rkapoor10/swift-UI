@@ -1,5 +1,5 @@
 .toast {
-    background-color: var(--darkgary-color);
+    background-color: var(--darkgray-color);
     margin: 0 0 1rem 0;
     width: 40rem;
     display: flex;
