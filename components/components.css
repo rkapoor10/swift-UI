@@ -19,7 +19,6 @@
 .display-container{
    width: auto;
    padding: 1rem;
-   border: 2px solid var(--lightgray-color);
    background-color:var(--lightshade-blue);
 }
 
