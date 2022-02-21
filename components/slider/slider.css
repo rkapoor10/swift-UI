@@ -1,0 +1,9 @@
+.datalist-style{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.accent-color-primary{
+    accent-color: var(--baseteal-color);
+}
