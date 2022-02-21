@@ -16,6 +16,10 @@
     gap: 10px;
 }
 
+.banner-border{
+    border: 2px solid var(--lightgray-color);
+}
+
 .grid-column-layout{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(16em,1fr));
