@@ -18,7 +18,8 @@ Here is the installation tag to use the library.
 
 [Documentation](https://swift-uiv1.netlify.app/docs/docs.html)
 
-
+## Deployment Status
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/7b36e178-fb6e-4c9d-abc7-4b39247a3c65/deploy-status)](https://swift-uiv1.netlify.app/)
 
 
 ## Features
