@@ -27,4 +27,24 @@ Here is the installation tag to use the library.
 - component previews
 - dynamic components
 - 10+ components
-- easy accessibility through code snippets
+- easy accessibility through code snippets  
+
+
+## Components
+
+- [Avatars](https://swift-uiv1.netlify.app/components/avatar/avatar.html)
+- [Alerts](https://swift-uiv1.netlify.app/components/alert/alert.html)
+- [Badges](https://swift-uiv1.netlify.app/components/badges/badges.html)
+- [Buttons](https://swift-uiv1.netlify.app/components/buttons/buttons.html)
+- [Cards](https://swift-uiv1.netlify.app/components/cards/cards.html)
+- [Image](https://swift-uiv1.netlify.app/components/image/image.html)
+- [Input](https://swift-uiv1.netlify.app/components/image/image.html)
+- [Text Utilities](https://swift-uiv1.netlify.app/components/text-utilities/text-utilities.html)
+- [Lists](https://swift-uiv1.netlify.app/components/lists/lists.html)
+- [Navigation](https://swift-uiv1.netlify.app/components/navigation/navigation.html)
+- [Modal](https://swift-uiv1.netlify.app/components/modal/modal.html)
+- [Rating](https://swift-uiv1.netlify.app/components/rating/rating.html)
+- [Toast](https://swift-uiv1.netlify.app/components/toast/toast.html)
+- [Grid](https://swift-uiv1.netlify.app/components/grid/grid.html)
+- [Slider](https://swift-uiv1.netlify.app/components/slider/slider.html)
+
